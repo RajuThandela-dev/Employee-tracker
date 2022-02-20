@@ -1,0 +1,66 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add axios --save
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;E:\Android Studio IDE 3.2.1\sdk\platform-tools;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Users\win10\AppData\Local\Microsoft\WindowsApps;C:\Users\win10\AppData\Roaming\npm;E:\Microsoft VS Code\bin;C:\Users\win10\AppData\Local\Yarn\bin;E:\Android Studio IDE 3.2.1\sdk\platform-tools;C:\Program Files\Java\jdk1.8.0_144\bin
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  10.14.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'E:\project\react\node_modules\node-sass\vendor\win32-x64-64\binding.node'
+
+npm manifest: 
+  {
+    "name": "",
+    "version": "1.0.0",
+    "private": true,
+    "homepage": "http://localhost/p",
+    "dependencies": {
+      "@types/react": "16.4.16",
+      "bootstrap": "4.1.3",
+      "chart.js": "2.7.2",
+      "classnames": "2.2.6",
+      "history": "4.7.2",
+      "node-sass": "4.9.3",
+      "perfect-scrollbar": "1.4.0",
+      "prop-types": "15.6.2",
+      "react": "16.5.2",
+      "react-chartjs-2": "2.7.4",
+      "react-dom": "16.5.2",
+      "react-google-maps": "9.4.5",
+      "react-notification-alert": "0.0.8",
+      "react-router-dom": "4.3.1",
+      "react-scripts": "2.0.4",
+      "reactstrap": "6.5.0"
+    },
+    "scripts": {
+      "start": "set PORT=7777 && react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject",
+      "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+      "compile-scss": "node-sass src/assets/scss/black-dashboard-react.scss src/assets/css/black-dashboard-react.css"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
